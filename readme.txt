@@ -1,9 +1,11 @@
 Git is a version control system.
 Git is free software
-Git 
-git haha
-aaaa
-git is free software distributed under the GPL.
+git add xxx
+git commit -m "xxx"
+git status
+git diff xxx
+git log
+git reflog
 
 git --hard head^
 git --hard 12345
