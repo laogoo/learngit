@@ -4,3 +4,6 @@ Git
 git haha
 aaaa
 git is free software distributed under the GPL.
+
+git --hard head^
+git --hard 12345
