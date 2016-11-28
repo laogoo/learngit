@@ -3,3 +3,4 @@ Git is free software
 Git 
 git haha
 aaaa
+git is free software distributed under the GPL.
