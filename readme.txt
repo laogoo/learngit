@@ -26,3 +26,40 @@ echo aa>test.txt
 ssh-keygen -t rsa -C"601765302@qq.com"
 git remote add origin git@github.com:laogoo/learngit.git
 git push -u origin master
+
+git clone克隆一个本地库：$ git clone git@github.com:michaelliao/gitskills.git
+
+
+创建dev分支，然后切换到dev分支：
+$ git checkout -b dev
+Switched to a new branch 'dev'
+
+git checkout命令加上-b参数表示创建并切换，相当于以下两条命令：
+$ git branch dev
+$ git checkout dev
+Switched to branch 'dev'
+
+用git branch命令查看当前分支：
+$ git branch
+* dev
+  master
+
+把dev分支的工作成果合并到master分支上：
+$ git merge dev
+
+删除dev分支了：
+$ git branch -d dev
+
+Git鼓励大量使用分支：
+
+查看分支：git branch
+
+创建分支：git branch <name>
+
+切换分支：git checkout <name>
+
+创建+切换分支：git checkout -b <name>
+
+合并某分支到当前分支：git merge <name>
+
+删除分支：git branch -d <name>
