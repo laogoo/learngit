@@ -12,6 +12,6 @@ git diff xxx
 git log
 git reflog
 
-git --hard head^
-git --hard 12345
+git reset --hard head^
+git reset --hard 12345
 
