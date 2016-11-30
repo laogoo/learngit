@@ -72,4 +72,9 @@ push：本地 --> 远程
 如果你本地落后远程，必然要pull
 如果你本地超前远程，必然要push
 
+test
+<<<<<<< HEAD
 &simple
+=======
+creating a new branch is quick AND simple
+>>>>>>> branch
