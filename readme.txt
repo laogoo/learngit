@@ -78,3 +78,5 @@ test
 =======
 creating a new branch is quick AND simple
 >>>>>>> branch
+
+git merge --no-ff -m "merge with no-ff"dev 
