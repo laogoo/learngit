@@ -63,3 +63,11 @@ Git鼓励大量使用分支：
 合并某分支到当前分支：git merge <name>
 
 删除分支：git branch -d <name>
+
+pull：本地 <-- 远程
+push：本地 --> 远程
+
+本质上都是同步commit
+
+如果你本地落后远程，必然要pull
+如果你本地超前远程，必然要push
