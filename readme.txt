@@ -258,4 +258,10 @@ git tag -s <tagname> -m "blablabla..."可以用PGP签名标签；
 
 命令git push origin :refs/tags/<tagname>可以删除一个远程标签。
 
+当然还有别的命令可以简写，很多人都用co表示checkout，ci表示commit，br表示branch：
+
+$ git config --global alias.co checkout
+$ git config --global alias.ci commit
+$ git config --global alias.br branch
+
 
